@@ -1,0 +1,16 @@
+postgreSQL
+       it's a database, store all data.it is similar to the SQL,some version of postgreSQL case sensitive 
+    installetion link:
+
+    command postgreSQL-
+      $psql -u postgres:shift postgreSQL
+      $CRESTE USER belike WITH PASSWORD 'possword':set password and username.
+      $CTREAT DATABASE mits;:create database.
+      $GRAND ALL PRIVILAGES ON DATABASE mits to belike:give the all grand and privilages to your database.
+      $DROP DATABASE something:delete somthing database.
+      $CREATE TABLE table (name integer NOT NOW);:to creat new table.
+      $\c mits:connect with database.
+      $\d:show table
+      $\d table:show the table type list
+      $DROP TABLE table:for delete a table
+      $\q:for exit postgres
