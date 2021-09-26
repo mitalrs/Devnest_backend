@@ -1,15 +1,15 @@
 postgreSQL
        it's a database, store all data.it is similar to the SQL,some version of postgreSQL case sensitive 
-    installetion link:
+    installetion link:https://www.postgresql.org/download/linux/ubuntu
+         //install acording to your system
 
-    command postgreSQL-
-      $psql -u postgres:shift postgreSQL
-      $CRESTE USER belike WITH PASSWORD 'possword':set password and username.
+    command postgreSQL-      $CRESTE USER belike WITH PASSWORD 'possword':set password and username.
       $CTREAT DATABASE mits;:create database.
       $GRAND ALL PRIVILAGES ON DATABASE mits to belike:give the all grand and privilages to your database.
       $DROP DATABASE something:delete somthing database.
       $CREATE TABLE table (name integer NOT NOW);:to creat new table.
       $\c mits:connect with database.
+      $psql -u postgres:shift postgreSQL
       $\d:show table
       $\d table:show the table type list
       $DROP TABLE table:for delete a table

@@ -10,7 +10,7 @@ In a event loop devide into three parts one of the
 $ Async and sync
  async- give a heavy task on hold and after the comple proper read to task for execution then task is executed and the time between asign a task to the porform a task just poarfor a some light wieght task on a first property, is called async.
 
- sync- totally vice versa, who task come first just exicute first //it's a slow to process 
+ sync- totally vice versa, who task come first just exicute first   //it's a slow to process 
 
 
 ex,

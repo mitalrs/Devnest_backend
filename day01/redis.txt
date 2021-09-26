@@ -1,4 +1,5 @@
 redis:
+       //convert a windows into linux or use WSL
      everythink store in redis form of string.
     install redis:
 
@@ -14,14 +15,20 @@ redis:
         $expire name 10:set a time for expiry
         $ttl name:time to live, check a current time status
         $setex name 10 mital:set a expiry on set key time
+      
+      
       >stack and queue-
         $lpush friend john: add new element in left side, lpush is a syntax,friend is a key and jhon is a value
         $LRANGE friend 0 -1:show the all value for in a key, 0 -1 is a index 
         $rpush friend romy:add value in right side,same is a lpush.
+      
+      
       >set-
         $SADD hobbies "mital sapkale":add value in a set.
         $SMEMBERS hobbies:show all memeber in a set.
-      >hash-
+      
+      
+       >hash-
         Hash is work as a object.
         $HSET person name mital:set for a hash object, hset is a syntax, person is a object name, name is key and mital is a value.
         $HGETALL person:show the all value in a object.
